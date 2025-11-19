@@ -41,4 +41,4 @@ If you’re using Git:
 
 ```bash
 git clone https://github.com/sekliheng/MySQLToPostgreSQL.git
-cd mysql2postgres
+cd MySQLToPostgreSQL
