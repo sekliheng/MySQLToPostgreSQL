@@ -11,7 +11,7 @@ from sqlalchemy import (
     Float,
     Numeric,
     SmallInteger,
-    Integer,       
+    Integer,          # 👈 NEW
 )
 from sqlalchemy.orm import sessionmaker
 
@@ -26,7 +26,7 @@ from sqlalchemy.dialects.mysql import (
     DECIMAL as MySQLDecimal,
     TINYINT as MySQLTinyInt,
     YEAR as MySQLYear,
-    MEDIUMINT as MySQLMediumInt,
+    MEDIUMINT as MySQLMediumInt,   # 👈 NEW
 )
 
 
@@ -41,8 +41,8 @@ from sqlalchemy.dialects.mysql import (
 MYSQL_HOST = "127.0.0.1"      # or your server IP
 MYSQL_PORT = 3306             # default
 MYSQL_USER = "root"
-MYSQL_PASSWORD = "your_mysql_password"
-MYSQL_DATABASE = "your_sql_db_name"
+MYSQL_PASSWORD = ""
+MYSQL_DATABASE = "property-listing"
 MYSQL_CHARSET = "utf8mb4"     # Recommended for Unicode (Khmer ok)
 
 # Build full MySQL SQLAlchemy URL
@@ -55,8 +55,8 @@ MYSQL_URL = (
 PG_HOST = "127.0.0.1"
 PG_PORT = 5432
 PG_USER = "postgres"
-PG_PASSWORD = "your_postgres_password"
-PG_DATABASE = "your_postgres_db_name"
+PG_PASSWORD = "ezpass2023"
+PG_DATABASE = "property-listing"
 
 # Build full PostgreSQL SQLAlchemy URL
 POSTGRES_URL = (

@@ -1,7 +1,4 @@
 
-sqlalchemy
-pymysql
-psycopg2-binary
 # MySQL → PostgreSQL Schema Migrator
 
 This project is a small Python tool that **copies table schemas from a MySQL database into PostgreSQL** using SQLAlchemy.
