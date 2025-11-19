@@ -40,5 +40,5 @@ The script uses:
 If you’re using Git:
 
 ```bash
-git clone <your-repo-url> mysql2postgres
+git clone https://github.com/sekliheng/MySQLToPostgreSQL.git
 cd mysql2postgres
